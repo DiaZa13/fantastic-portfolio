@@ -1,0 +1,47 @@
+.about-container{
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
+  display: flex;
+}
+
+.name-container{
+  font-family: Julius Sans One, serif;
+  cursor: default;
+  display: flex;
+  color: white;
+  &:hover{
+    .name{
+      transform: translateY(0);
+    }
+  }
+}
+
+.name{
+  display: inline-block;
+  margin-left: 5px;
+  transition: transform 500ms ease-out;
+  &:nth-child(2n+ 1){
+    transform: translateY(-14%);
+  }
+}
+
+#descripcion{
+  color: white;
+}
+
+.justify-text{
+  text-align: justify;
+}
+
+.is-hover{
+  color: white;
+  transition: all 0.5s ease-out;
+  text-decoration: none;
+  &:hover{
+    color: coral;
+    transform: scale(1.5);
+  }
+}
+
