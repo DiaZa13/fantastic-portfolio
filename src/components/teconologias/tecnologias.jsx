@@ -55,7 +55,7 @@ export default function Tecnologias() {
 
   return (
     <section className="tec-container">
-      <h1 className="mb-2">DESARROLLO WEB</h1>
+      <h1 className="mb-2">CONOCIMIENTO EN:</h1>
       <div id="images" className="img-store">
         <img src={actual} alt="React" className="h-100 w-100" ref={changeImg} />
       </div>

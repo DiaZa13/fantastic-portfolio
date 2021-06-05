@@ -11,7 +11,7 @@ export default function WorkItem(props) {
           <h5 className="card-title">{tutorship.title}</h5>
           <p className="card-text">{tutorship.description}</p>
           <div className="d-flex justify-content-end">
-            <a href={tutorship.redirect} className="tutorship-link">LEER MÁS</a>
+            <a href={tutorship.redirect} className="tutorship-link">VISITAR</a>
             <span className="material-icons ms-1" style={{ fontSize: '20px' }}><HiArrowNarrowRight /></span>
           </div>
         </div>

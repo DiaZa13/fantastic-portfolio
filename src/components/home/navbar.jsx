@@ -3,23 +3,7 @@ import React from 'react';
 export default function Navbar() {
   return (
     <div>
-      <div className="sun">
-        <div className="menu">
-          <i className="menu-icon">
-            <span className="menu-line" />
-            <span className="menu-line" />
-            <span className="menu-line" />
-            <span className="menu-line" />
-            <span className="menu-line" />
-          </i>
-          <span className="menu-text">
-            <span>M</span>
-            <span>E</span>
-            <span>N</span>
-            <span>U</span>
-          </span>
-        </div>
-      </div>
+
       <div className="logo">
         <svg xmlns="http://www.w3.org/2000/svg" width="80.523" height="82.555" viewBox="0 0 214.523 219.938">
           <defs>

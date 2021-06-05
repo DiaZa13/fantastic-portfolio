@@ -32,7 +32,6 @@ export default function Work() {
 
   return (
     <div>
-      <h1 className="ps-5 mb-2">PROYECTOS</h1>
       <div className="tutorship-container">
         <WorkItem
           title="Google Store Imitation"
@@ -51,14 +50,14 @@ export default function Work() {
         <WorkItem
           title="Meeting"
           description="Meeting es una aplicación web que permite la recomendación de grupos sociales a estudiantes de primer año de la Universidad del Valle de Guatemala"
-          redirect="http://stw-uvg.site:3167/"
+          redirect="https://github.com/El-Mendez/ISW_Frontend"
           position=""
           img={p3}
         />
         <WorkItem
             title="Zoa"
             description="Proyecto desarrollado en el curso de Bases de Datos. Zoa es una aplicación de streaming de música que permite esucchar cualquiera de las canciones dentro de la plataforma así como una variedad de funciones para usuarios administradores"
-            redirect="http://stw-uvg.site:3167/"
+            redirect="https://github.com/El-Mendez/BD_Proyecto1"
             position=""
             img={p4}
         />

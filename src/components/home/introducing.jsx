@@ -42,9 +42,9 @@ export default function Introducing() {
       <div className="container-fluid">
         <Navbar />
         <div className="quote">
-          <h3> There are three responses to a piece of design </h3>
-          <h1 ref={changeWord}> YES </h1>
-          <h3> -Milton Glaser </h3>
+          <h1> There are three responses to a piece of design </h1>
+          <h1 ref={changeWord} className="text-center fw-bolder new-font display-2"> YES </h1>
+          <h3 className="text-end"> -Milton Glaser </h3>
         </div>
 
       </div>
