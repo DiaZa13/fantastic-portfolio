@@ -7,7 +7,7 @@ const envs = {
   production: 'prod',
 };
 
-const env = envs[process.env.NODE_ENV || 'development'];
+const env = envs[process.env.NODE_ENV || 'production'];
 // eslint-disable-next-line import/no-dynamic-require
 const envConfig = require(`./config/webpack.${env}`);
 module.exports = merge(common, envConfig);

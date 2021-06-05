@@ -11,6 +11,7 @@ export default function Home() {
   useEffect(() => {
     const element = about.current;
     const cont = container.current;
+    console.log(cont.offsetWidth);
 
     tl.add(gsap.to(element, {
       xPercent: -100,

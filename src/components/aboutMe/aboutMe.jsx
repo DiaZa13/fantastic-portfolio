@@ -42,7 +42,7 @@ export default function AboutMe() {
       <h3 className="text-tertiary px-5 justify-text">
         Soy estudiante de la Ingeniería en Ciencias de la Computación  Tecnologías de la Información en la
         Universidad del Valle Guatemala, actualmente tengo 19 años (SOY ADULTO INDEPENDIENTE, CON GUSTOS BIEN DEMENTES)
-        Soy una persona apasionada, entusiasta y creativa. Perfeccionista en el desarrollo de diseño y amante de las
+        Soy una persona apasionada, entusiasta y creativa. Perfeccionista en el ámbito del diseño y amante de las
         animaciones en scroll.
         <hr className="text-tertiary mt-5 w-100" />
         <div className="d-flex justify-content-between text-tertiary">

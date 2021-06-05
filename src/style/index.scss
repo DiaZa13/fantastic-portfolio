@@ -4,9 +4,11 @@
 @import "../components/home/home";
 @import "../components/aboutMe/about";
 @import "../components/teconologias/tecnologias";
+@import "../components/work/work";
 
 body{
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 
