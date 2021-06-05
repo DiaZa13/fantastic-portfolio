@@ -1,5 +1,4 @@
-import React, { useEffect, useRef } from 'react';
-import gsap from 'gsap';
+import React from 'react';
 import p2 from '../../assets/p2.png';
 import p3 from '../../assets/p3.png';
 import p4 from '../../assets/p4.png';
@@ -41,11 +40,11 @@ export default function Work() {
           img={p2}
         />
         <WorkItem
-            title="Calculadora responsive"
-            description="Calculadora con operaciones básicas, hechas a base de componentes de react y testeada cada función con pruebas unitarias"
-            redirect="http://stw-uvg.site/labs/lab10/zaray/"
-            position=""
-            img={p5}
+          title="Calculadora responsive"
+          description="Calculadora con operaciones básicas, hechas a base de componentes de react y testeada cada función con pruebas unitarias"
+          redirect="http://stw-uvg.site/labs/lab10/zaray/"
+          position=""
+          img={p5}
         />
         <WorkItem
           title="Meeting"
@@ -55,11 +54,11 @@ export default function Work() {
           img={p3}
         />
         <WorkItem
-            title="Zoa"
-            description="Proyecto desarrollado en el curso de Bases de Datos. Zoa es una aplicación de streaming de música que permite esucchar cualquiera de las canciones dentro de la plataforma así como una variedad de funciones para usuarios administradores"
-            redirect="https://github.com/El-Mendez/BD_Proyecto1"
-            position=""
-            img={p4}
+          title="Zoa"
+          description="Proyecto desarrollado en el curso de Bases de Datos. Zoa es una aplicación de streaming de música que permite esucchar cualquiera de las canciones dentro de la plataforma así como una variedad de funciones para usuarios administradores"
+          redirect="https://github.com/El-Mendez/BD_Proyecto1"
+          position=""
+          img={p4}
         />
       </div>
 

@@ -4,10 +4,10 @@ export default function End() {
   return (
     <div className="end d-flex justify-content-between align-items-center text-tertiary px-5">
       <div>
-          ©Zaray
+        ©Zaray
       </div>
       <div>
-          ®Todos merecemos poder usar los puntos extras
+        ®Todos merecemos poder usar los puntos extras
       </div>
     </div>
   );

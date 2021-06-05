@@ -1,5 +1,5 @@
 import React from 'react';
-import { HiArrowNarrowRight } from "react-icons/hi";
+import { HiArrowNarrowRight } from 'react-icons/hi';
 
 export default function WorkItem(props) {
   const tutorship = props;

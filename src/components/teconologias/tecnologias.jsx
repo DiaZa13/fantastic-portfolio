@@ -81,7 +81,6 @@ export default function Tecnologias() {
         >
           CSS
         </div>
-
         <div
           className="border-bottom border-primary tecnologia d-flex align-items-center w-100"
           onMouseOver={handleHover}

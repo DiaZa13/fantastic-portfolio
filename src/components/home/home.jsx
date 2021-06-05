@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from 'react';
-import gsap, { Power3 } from 'gsap/';
+import gsap from 'gsap/';
 import AboutMe from '../aboutMe/aboutMe';
 import Introducing from './introducing';
 
