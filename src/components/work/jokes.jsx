@@ -14,7 +14,7 @@ export default function Jokes() {
         trigger: '.alg-container',
         start: 'top center',
         end: 'center 30%',
-        toggleActions: 'restart pause reverse pause',
+        toggleActions: 'restart none none none',
       },
       duration: 1.4,
       width: '0%',

@@ -55,27 +55,27 @@ export default function Tecnologias() {
 
   return (
     <section className="tec-container">
-      <h1 className="mb-2 text-tertiary">Desarrollo Web</h1>
+      <h1 className="mb-2">DESARROLLO WEB</h1>
       <div id="images" className="img-store">
         <img src={actual} alt="React" className="h-100 w-100" ref={changeImg} />
       </div>
       <div id="tecnologias">
         <div
-          className="border-bottom border-top border-tertiary tecnologia d-flex align-items-center w-100"
+          className="border-bottom border-top border-primary tecnologia d-flex align-items-center w-100"
           onMouseOver={handleHover}
           id="react"
         >
           REACT
         </div>
         <div
-          className="border-bottom border-tertiary tecnologia d-flex align-items-center w-100 "
+          className="border-bottom border-primary tecnologia d-flex align-items-center w-100 "
           onMouseOver={handleHover}
           id="boostrap"
         >
           BOOSTRAP
         </div>
         <div
-          className="border-bottom border-tertiary tecnologia d-flex align-items-center w-100 "
+          className="border-bottom border-primary tecnologia d-flex align-items-center w-100 "
           onMouseOver={handleHover}
           id="css"
         >
@@ -83,42 +83,42 @@ export default function Tecnologias() {
         </div>
 
         <div
-          className="border-bottom border-tertiary tecnologia d-flex align-items-center w-100"
+          className="border-bottom border-primary tecnologia d-flex align-items-center w-100"
           onMouseOver={handleHover}
           id="html"
         >
           HTML
         </div>
         <div
-          className="border-bottom border-tertiary tecnologia d-flex align-items-center w-100"
+          className="border-bottom border-primary tecnologia d-flex align-items-center w-100"
           onMouseOver={handleHover}
           id="sass"
         >
           SASS
         </div>
         <div
-          className="border-bottom border-tertiary tecnologia d-flex align-items-center w-100"
+          className="border-bottom border-primary tecnologia d-flex align-items-center w-100"
           onMouseOver={handleHover}
           id="js"
         >
           JAVASCRIPT
         </div>
         <div
-          className="border-bottom border-tertiary tecnologia d-flex align-items-center w-100"
+          className="border-bottom border-primary tecnologia d-flex align-items-center w-100"
           onMouseOver={handleHover}
           id="webpack"
         >
           WEBPACK
         </div>
         <div
-          className="border-bottom border-tertiary tecnologia d-flex align-items-center w-100"
+          className="border-bottom border-primary tecnologia d-flex align-items-center w-100"
           onMouseOver={handleHover}
           id="babel"
         >
           BABEL
         </div>
         <div
-          className="border-bottom border-tertiary tecnologia d-flex align-items-center w-100"
+          className="border-bottom border-primary tecnologia d-flex align-items-center w-100"
           onMouseOver={handleHover}
           id="eslint"
         >
