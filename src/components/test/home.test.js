@@ -52,5 +52,5 @@ describe('AboutMe', () => {
     expect(project).not.toBeNull();
   });
 
-  
+
 });

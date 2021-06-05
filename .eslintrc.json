@@ -16,6 +16,7 @@
         "linebreak-style": ["error", "windows"],
         "no-console": "off",
         "jsx-a11y/mouse-events-have-key-events": "off",
+        "jsx-a11y/control-has-associated-label" : "off",
         "class-methods-use-this": "error"
     }
 }

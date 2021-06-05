@@ -6,7 +6,7 @@ export default function WorkItem(props) {
   return (
     <div>
       <div className={`card card-dimensions ${tutorship.position}`}>
-        <img className={`card-img-top h-75 ${tutorship.position}`} src={tutorship.img} alt="Card image cap" />
+        <img className={`card-img-top h-75 ${tutorship.position}`} src={tutorship.img} alt="Card cap" />
         <div className="card-body">
           <h5 className="card-title">{tutorship.title}</h5>
           <p className="card-text">{tutorship.description}</p>
