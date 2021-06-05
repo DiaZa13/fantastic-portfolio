@@ -37,7 +37,7 @@ export default function Introducing() {
     <div className="section-container">
       <div className="container-fluid m-0 p-0">
         <img src={background} alt="Background" className="background" />
-        <img src={bicycle} alt="Bicycle" className="bicycle animate__animated animate__slideInLeft animate__slow" />
+        <img src={bicycle} alt="Bicycle" className="bicycle animate__animated animate__slideInLeft animate__slow" data-testid="animation" />
       </div>
       <div className="container-fluid">
         <Navbar />

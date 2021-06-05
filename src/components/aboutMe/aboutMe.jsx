@@ -46,10 +46,10 @@ export default function AboutMe() {
         animaciones en scroll.
         <hr className="text-tertiary mt-5 w-100" />
         <div className="d-flex justify-content-between text-tertiary">
-          <a href="https://www.youtube.com/watch?v=Mfu9jgj_z18" className="is-hover"><MdEmail /></a>
-          <a href="https://github.com/DiaZa13" className="is-hover"><AiFillGithub /></a>
-          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" className="is-hover"><AiOutlineInstagram /></a>
-          <a href="https://wa.link/u4ips5" className="is-hover"><AiOutlineWhatsApp /></a>
+          <a href="https://www.youtube.com/watch?v=Mfu9jgj_z18" className="is-hover" data-testid="email"><MdEmail /></a>
+          <a href="https://github.com/DiaZa13" className="is-hover" data-testid="github"><AiFillGithub /></a>
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" className="is-hover" data-testid="ig"><AiOutlineInstagram /></a>
+          <a href="https://wa.link/u4ips5" className="is-hover" data-testid="whats"><AiOutlineWhatsApp /></a>
         </div>
       </h3>
 
